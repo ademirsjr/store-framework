@@ -6,7 +6,8 @@
       "info-card#button-left",
       "flex-layout.row",
       "flex-layout.col",
-      "shelf"
+      "shelf",
+      "slider-layout#home"
 
     ]
   },
@@ -78,6 +79,16 @@
           "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
           "maxWidth": "100%"
         }
+      },
+      "slider-layout#home":{
+        "children": [
+          "image#brand1",
+          "image#brand2",
+          "image#brand3",
+          "image#brand4",
+          "image#brand5",
+          "image#brand6"
+        ]
       }
 }
   
